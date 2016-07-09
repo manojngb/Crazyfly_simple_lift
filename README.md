@@ -26,6 +26,8 @@ Assumptions
 
 ### STEPS
 
+ Use --recursive to clone 
+
  Launching the GUI application
 
 1. To launch the GUI application in the source folder, got to bin folder and type:
