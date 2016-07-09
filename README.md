@@ -8,7 +8,7 @@ Usage
 
 Assumptions 
 
-1. Crazyflie USB PA Hardware
+1. Crazyflie USB PA Hardware 
 2. CFlib installed ( follow https://github.com/bitcraze/crazyflie-lib-python )
 3. The client will be run from source
 4. Python 3 installed
@@ -24,27 +24,27 @@ Assumptions
     sudo pip3 install pyusb==1.0.0b2
 
 
-STEPS
+### STEPS
 
-### Launching the GUI application
+ Launching the GUI application
 
 1. To launch the GUI application in the source folder, got to bin folder and type:
 
    python3 cfclient
 
 2. Gui should open and scan for the crazyflie and connect.
-   (verify that chnage in crazyflie position is reflected in client Flightdata
-3. Input device type is set to zmq@127.0.0.1/
-4. Open another terminal. go to examples folder and run 
+   (verify that chnage in crazyflie position is reflected in client Flightdata)
+
+3. Input device type is set to zmq@tcp://127.0.0.1/1212
+
+4. Open another terminal. Go to examples folder and run 
 
    python3 zmqclientinput.py
 
-
-5. Crazyflie client screen would show the target thrust and actual thrust
-
+5. Crazyflie starts lifting (motors spins). client screen would show the target thrust and actual thrust.
 
 
-For more info see [wiki](http://wiki.bitcraze.se/ "Bitcraze Wiki").
+For more info see [wiki](http://wiki.bitcraze.se/ "Bitcraze Wiki") and https://github.com/bitcraze/crazyflie-clients-python
 
 The Crazyflie PC client enables flashing and controlling the Crazyflie.
 There's also a Python library that can be integrated into other applications
