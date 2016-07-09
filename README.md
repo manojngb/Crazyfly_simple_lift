@@ -44,7 +44,9 @@ Assumptions
 5. Crazyflie starts lifting (motors spins). client screen would show the target thrust and actual thrust.
 
 
-For more info see [wiki](http://wiki.bitcraze.se/ "Bitcraze Wiki") and https://github.com/bitcraze/crazyflie-clients-python
+For more info see [wiki](http://wiki.bitcraze.se/ "Bitcraze Wiki") 
+https://github.com/bitcraze/crazyflie-clients-python
+https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:zmq#input_device
 
 The Crazyflie PC client enables flashing and controlling the Crazyflie.
 There's also a Python library that can be integrated into other applications
