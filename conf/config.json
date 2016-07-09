@@ -1,0 +1,21 @@
+{
+  "input_device": "ZMQ@tcp://127.0.0.1:1212",
+  "max_thrust": 80,
+  "ui_update_period": 100,
+  "min_thrust": 25,
+  "auto_reconnect": false,
+  "flightmode": "Normal",
+  "trim_roll": 0.0,
+  "input_device_blacklist": "(VirtualBox|VMware)",
+  "trim_pitch": 0.0,
+  "slew_rate": 30,
+  "max_yaw": 200,
+  "enable_debug_driver": false,
+  "max_rp": 30,
+  "device_config_mapping": {},
+  "open_tabs": "Flight Control",
+  "slew_limit": 45,
+  "client_side_xmode": false,
+  "enable_zmq_input": true,
+  "link_uri": "radio://0/80/250K"
+}
